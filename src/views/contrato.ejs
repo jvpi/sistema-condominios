@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="iconos/style.css">
+	<link rel="stylesheet" href="form-contrato.css">
+	<link rel="stylesheet" type="text/css" href="estilosTabla.css">
+	<script src='modal.js' defer ></script>
 </head>
 <body>
 	
@@ -50,5 +53,53 @@
 			</li>
 		</ul>
 	</nav>
+
+	<div class="main">
+		<h2>lista de contratos</h2>
+		<div>
+			 <button class="btn" id="btn-abrir">+ Nuevo</button>
+		</div>
+		<div class="main__titulos">
+		
+			<span>Dni</span>
+			<span>Descripcion</span>
+			<span>Estadia mensual</span>
+			<span>Fecha de contrato</span>
+			<span>Monto establecido</span>
+			<span>Documentos</span>
+			
+			<span class="no-border">Accion</span>
+		</div>
+		<div class="main__info">
+			<span>Dni</span>
+			<span>Descripcion</span>
+			<span>Estadia mensual</span>
+			<span>Fecha de contrato</span>
+			<span>Monto establecido</span>
+			<span>Documentos</span>
+		</div>
+	</div>
+	<form action="" method="post" class="form" id="form">
+		<div class="informacion">
+			<span class="span-Procedencia">Infomarcion del inquilino</span>
+			<label>Dni</label>
+			<input type="text" placeholder="Dni" class="inputn">
+			<label>Descripcion</label>
+			<input type="text" placeholder="Descripcion" class="inputn">
+			<label>Estadia mensual</label>
+			<input type="text" placeholder="Estadia mensual" class="inputn">
+			<label>Fecha de contrato</label>
+			<input type="text" placeholder="Fecha de contrato" class="inputn">
+			<label>Monto establecido</label>
+			<input type="text" placeholder="Monto establecido" class="inputn">
+			<label>Documentos</label>
+			<input type="text" placeholder="Documentos" class="inputn">
+			
+
+		</div>
+		<button class="btn btn-margin">Guardar</button>
+		<span class="span-cerrar" id="btn-cerrar">x Cerrar</span>
+	</form>	
+	
 </body>
 </html>

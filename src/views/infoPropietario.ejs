@@ -6,7 +6,10 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilosTabla.css">
 	<link rel="stylesheet" href="iconos/style.css">
+	<link rel="stylesheet" href="form.css">
+	<script src='modal.js' defer ></script>
 </head>
 <body>
 	
@@ -50,5 +53,71 @@
 			</li>
 		</ul>
 	</nav>
+	<div class="main">
+		<h2>lista de propietario</h2>
+		<div>
+			 <button class="btn" id="btn-abrir">+ Nuevo</button>
+		</div>
+		<div class="main__titulos">
+		
+			<span>Dni</span>
+			<span>Nombre</span>
+			<span>Apellido</span>
+			<span>Telefono</span>
+			<span>Sexo</span>
+			<span>Correo</span>
+			<span>Departamento</span>
+			<span>Provincia</span>
+			<span>Distrito</span>
+			<span>Direccion</span>
+			<span class="no-border">Accion</span>
+		</div>
+		<div class="main__info">
+			<span>Dni</span>
+			<span>Nombre</span>
+			<span>Apellido</span>
+			<span>Telefono</span>
+			<span>Sexo</span>
+			<span>Correo</span>
+			<span>Departamento</span>
+			<span>Provincia</span>
+			<span>Distrito</span>
+			<span>Direccion</span>
+		</div>
+	</div>
+	<form action="" method="post" class="form" id="form">
+		<div class="informacion">
+			<span class="span-Procedencia">Infomarcion del inquilino</span>
+			<label>Dni</label>
+			<input type="text" placeholder="Dni" class="inputn">
+			<label>Nombre</label>
+			<input type="text" placeholder="Nombre" class="inputn">
+			<label>Apellido</label>
+			<input type="text" placeholder="Apellido" class="inputn">
+			<label>Telefono</label>
+			<input type="text" placeholder="Telefono" class="inputn">
+			<label>Sexo</label>
+			<input type="text" placeholder="Sexo" class="inputn">
+			<label>Correo</label>
+			<input type="text" placeholder="Correo" class="inputn">
+			
+
+		</div>
+
+		<div class="informacion">
+			<span class="span-Procedencia">Procedencia</span>
+			<label>Departamento</label>
+			<input type="text" class="inputn">
+			<label>Provincia</label>
+			<input type="text" class="inputn">
+			<label>Distrito</label>
+			<input type="text" class="inputn">
+			<label>Direccion</label>
+			<input type="text" class="inputn">
+		</div>
+		<button class="btn btn-margin">Guardar</button>
+		<span class="span-cerrar" id="btn-cerrar">x Cerrar</span>
+	</form>	
+	
 </body>
 </html>

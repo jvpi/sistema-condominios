@@ -19,9 +19,7 @@ body{
 	text-align: center;
 	padding: 18px 0
 }
-h2{
-	background-color: red
-}
+
 .header__span{
 	
 	width: 25%;
@@ -83,3 +81,9 @@ ul{
 	color: #fff;
 	font-size: 19px;
 }
+
+
+/*main*/
+
+
+

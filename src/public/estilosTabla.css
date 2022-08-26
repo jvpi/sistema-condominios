@@ -1,0 +1,42 @@
+.main{
+	background-color: #fff;
+	position: absolute;
+	top: 78px;
+	left: 213px;
+	padding: 10px ;
+	width: 78%;
+}
+
+.main__titulos, .main__info {
+	margin-top: 10px;
+	border:  1px solid #C8C8C8;
+	padding: 10px;
+}
+.main__info {
+	border: none;
+}
+.main__titulos span, .main__info span{
+	margin-right: 5px;
+	border-right: 1px solid #C8C8C8;
+	padding-right: 5px
+}
+
+.btn{
+	cursor: pointer;
+	background: none;
+	border: none;
+	background-color: #5886ff;
+	padding:8px;
+	color: #fff;
+	transition: background ease .5s;
+	margin-bottom: 20px
+}
+.btn:hover{
+	
+	background-color: #507AEA;
+	
+}
+.main__titulos .no-border{
+	border-right: none;
+	
+}

@@ -1,0 +1,36 @@
+.form{
+	width: 40%;
+	background-color: #fff;
+	padding: 10px 15px;
+	position: absolute;
+	top: 10px;
+	left: 422px;
+	display: none;
+}
+.informacion{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputn{
+	padding: 5px;
+}
+.btn-margin{
+	margin-top: 15px;
+}
+
+.span-cerrar{
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #FF4444;
+	padding: 10px 12px;
+	bottom: 26px;
+
+}
+
+.span-Procedencia{
+	font-size: 24px;
+	margin: 10px 0
+}

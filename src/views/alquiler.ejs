@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="iconos/style.css">
+	<link rel="stylesheet" type="text/css" href="tabla-alquiler.css">
+		<script src='modal.js' defer ></script>
 </head>
 <body>
 	
@@ -50,5 +52,39 @@
 			</li>
 		</ul>
 	</nav>
+
+	<div class="main">
+		<h2>lista de alquileres</h2>
+		<div>
+			 <button class="btn" id="btn-abrir">+ Nuevo</button>
+		</div>
+		<div class="main__titulos">
+		
+			<span>Fecha de alquiler</span>
+			<span>Fecha de inicio</span>
+			
+			
+			<span class="no-border">Accion</span>
+		</div>
+		<div class="main__info">
+			<span>Dni</span>
+			<span>Descripcion</span>
+			
+		</div>
+	</div>
+	<form action="" method="post" class="form" id="form">
+		<div class="informacion">
+			<span class="span-Procedencia">Infomarcion del inquilino</span>
+			<label>Fecha de alquiler</label>
+			<input type="text" placeholder="Fecha de alquiler" class="inputn">
+			<label>Fecha de inicio</label>
+			<input type="text" placeholder="Fecha de inicio" class="inputn">
+			
+			
+
+		</div>
+		<button class="btn btn-margin">Guardar</button>
+		<span class="span-cerrar" id="btn-cerrar">x Cerrar</span>
+	</form>	
 </body>
 </html>
