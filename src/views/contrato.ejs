@@ -6,25 +6,48 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="iconos/style.css">
 </head>
 <body>
-	<h1>contrato</h1>
+	
 	<header class="header">
-		<div>
-			<h2>Admi Condominios</h2>
+		<div class="header__titulo">
+			<span class="icon-home"></span>
+			
+			<span>Admi Condominios</span>
 		</div>
-		<div>
-			<span></span>
-			<span></span>
-			<span></span>
+		<div class="header__span">
+			<div class="border--radius">
+				<img src="img/campana.png" class="img">
+			</div>
+			<div class="border--radius">
+				<img src="img/carta.png" class="img">
+			</div>
+			
+			<div>
+				<img src="img/usuario.png" class="img">
+				<span class="nombre">john doe</span>
+			</div>
 		</div>
 	</header>
-	<nav>
+	<nav class="nav">
 		<ul>
-			<li><a href="/informacion-inquilinos">Infomarcion de inquilinos</a></li>
-			<li><a href="/informaccion-propietarios">Infomarcion de Propietarios</a></li>
-			<li><a href="/contrato">Contrato</a></li>
-			<li><a href="/alquiler">Alquiler</a></li>
+			<li class="nav__li">
+				<span class="icon-user iconos"></span>
+				<a href="/informacion-inquilinos" class="nav__enlaces">Infomarcion de inquilinos</a>
+			</li>
+			<li class="nav__li">
+				<span class="icon-user iconos"></span>
+				<a href="/informaccion-propietarios" class="nav__enlaces">Infomarcion de Propietarios</a>
+			</li >
+			<li class="nav__li">
+				<span class="icon-file-text iconos"></span>
+				<a href="/contrato" class="nav__enlaces">Contrato</a>
+			</li >
+			<li class="nav__li">
+				<span class="icon-office iconos"></span>
+				<a href="/alquiler" class="nav__enlaces">Alquiler</a>
+			</li>
 		</ul>
 	</nav>
 </body>

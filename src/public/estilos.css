@@ -2,3 +2,84 @@ body{
 	background-color: #E4E4E4
 	
 }
+
+.header{
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+	
+	justify-content: space-between;
+}
+
+.header__titulo{
+    background: #182444;
+	color: #fff;
+	font-size: 17px;
+	width: 20%;
+	text-align: center;
+	padding: 18px 0
+}
+h2{
+	background-color: red
+}
+.header__span{
+	
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.nombre{
+	position: relative;
+	left: 7px;
+	bottom: 8px;
+}
+.border--radius{
+	background-color: #DBDBDB;
+	border-radius: 50%;
+	padding: 5px;
+
+}	
+.nav{
+	background-color: #0f1a34;
+	width: 20%;
+	height: 92.4vh;
+	margin-top: -16px	
+}
+
+ul{
+	padding-top: 20px;
+}
+.nav__li{
+	
+	list-style: none;
+	
+	position: relative;
+	font-size: 17px
+}
+
+.nav__li:hover{
+	background-color: #070D1B;
+}
+.nav__enlaces{
+	text-decoration: none;
+	color: #fff;
+	
+	display: inline-block;
+	width: 100%;
+	padding: 10px 48px;
+}
+.img{
+	width: 25px
+}
+
+.iconos{
+	display: inline-block;
+	position: absolute;
+	left: 16px;
+	top: 8px;
+	color: #fff;
+	font-size: 19px;
+}

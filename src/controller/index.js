@@ -7,7 +7,7 @@ crud.informacionInquilinos = async function(req,res) {
 	res.render('infoinquilino')
 }
 crud.informaccionPropietarios = function(req,res) {
-	res.render('infoPripietario')
+	res.render('infoPropietario')
 }
 crud.alquiler = function(req,res) {
 	res.render('alquiler')
