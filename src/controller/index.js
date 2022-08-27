@@ -4,7 +4,7 @@ const crud = {}
 
 crud.informacionInquilinos = async function(req,res) {
 	console.log(await service.infoinquilino())
-	res.render('infoinquilino')
+	res.render('infoInquilino')
 }
 crud.informaccionPropietarios = function(req,res) {
 	res.render('infoPropietario')
