@@ -1,8 +1,8 @@
 const dbPeticion = {}
-const dbUsuarios = require('../database/usuario.js')
-dbPeticion.obtenerUsuarios = function() {
-	const usuarios = dbUsuarios.obtenerUsuarios()
-	return usuarios
+const dbCondominios = require('../database/usuario.js')
+dbPeticion.infoinquilino = async function() {
+	const respuesta  = await dbCondominios.infoinquilino()
+	return respuesta
 }
 
 module.exports = dbPeticion

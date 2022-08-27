@@ -1,8 +1,14 @@
-const db = require('./db.json')
+const {Pool} = require('pg')
 const usuarios = {}
-
-usuarios.obtenerUsuarios = function() {
-	return db.workouts
+const pool = new Pool({
+	host:'localhost',
+	user:'postgres',
+	database:'admicondominios',
+	password:'123456'
+})
+usuarios.infoinquilino = async function() {
+	const respuesta = await pool.query('SELECT * FROM infoinquilino')
+	return respuesta
 }
 
 module.exports = usuarios

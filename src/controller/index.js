@@ -2,7 +2,8 @@ const service = require('../service/service.js')
 
 const crud = {}
 
-crud.informacionInquilinos = function(req,res) {
+crud.informacionInquilinos = async function(req,res) {
+	console.log(await service.infoinquilino())
 	res.send('dsad')
 }
 crud.informaccionPropietarios = function(req,res) {
